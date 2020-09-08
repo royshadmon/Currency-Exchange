@@ -1,0 +1,6 @@
+```
+python setup.py check 
+python setup.py sdist
+gpg --detach-sign -a dist/CurrencyExchange-1.0.3.tar.gz
+twine upload dist/CurrencyExchange-1.0.2.tar.gz dist/CurrencyExchange-1.0.2.tar.gz.asc
+```
